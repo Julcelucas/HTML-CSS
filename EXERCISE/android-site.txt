@@ -1,0 +1,18 @@
+﻿#FFFFFF
+#2222FF
+#1B1BCC
+#3E3E80
+#111180
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&display=swap');
+</style>
