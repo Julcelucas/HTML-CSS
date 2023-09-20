@@ -40,7 +40,8 @@
 
 body{
     font-family: var(--fonteh3);
-    background: black url("../Imagens/");
+    background: black url("../Imagens/imagem6.jpg") center center no-repeat fixed;
+    background-size: cover;
 }
 
 h1,h2,h3{
@@ -113,6 +114,8 @@ header nav a:hover{
 }
 
 main{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    color: white;
     max-width: 984px;
     min-width: 300px;
     margin-left: 40px;
@@ -172,11 +175,12 @@ li{
 }
 main strong a{
     text-decoration: none;
-    color: rgb(4, 4, 102);
+    color: rgb(1, 1, 43);
+    
 }
 main strong a:hover{
     text-decoration: underline;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
 
