@@ -39,8 +39,8 @@
 }
 
 body{
-    background-color: var(--cor1);
     font-family: var(--fonteh3);
+    background: black url("../Imagens/");
 }
 
 h1,h2,h3{
