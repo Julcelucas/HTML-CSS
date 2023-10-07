@@ -12,10 +12,17 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
        tbody tr:nth-child(2n){
@@ -30,8 +37,8 @@
             text-align: right;
         }
         caption{
-            text-align: left;
-            padding: 10px;
+            text-align: center;
+            padding: 15px;
             background-color: rgba(128, 128, 128, 0.329);
         }
     </style>
@@ -87,6 +94,39 @@
                 <td >Cabinda</td>
                 <td class="num">795 985</td>
             </tr>
+            <tr>
+                <td >Zaire</td>
+                <td class="num">695 985</td>
+            </tr>
+            <tr>
+                <td >Kwanza-Norte</td>
+                <td class="num">695 325</td>
+            </tr>
+            <tr>
+                <td >Cuando Cubango</td>
+                <td class="num">555 995</td>
+            </tr>
+            <tr>
+                <td >Huila</td>
+                <td class="num">344 560</td>
+            </tr>
+            <tr>
+                <td >Bengo</td>
+                <td class="num">319 564</td>
+            </tr>
+            <tr>
+                <td >Lunda-Sul</td>
+                <td class="num">298 433</td>
+            </tr>
+            <tr>
+                <td >Cunene</td>
+                <td class="num">287 564</td>
+            </tr>
+            <tr>
+                <td >Uige</td>
+                <td class="num">229 564</td>
+            </tr>
+
             
         </tbody>
         <tfoot>
