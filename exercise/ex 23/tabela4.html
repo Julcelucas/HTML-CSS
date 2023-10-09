@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption{
+            font-size: 1.2em;
+            padding: 10px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio sobre tabelas</h1>
+    <table>
+        <caption>Series Favoritas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Series</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Nair Morais</td>
+                <td>Vikings</td>
+                <td>The 100</td>
+                <td>Spartacus</td>
+            </tr>
+            <tr>
+                <td>Ivone Manuel</td>
+                <td>Riverdale</td>
+                <td>Jacob Defending</td>
+                <td>O. Banks</td>
+            </tr>
+            <tr>
+                <td>Luzia Neto</td>
+                <td>FBI</td>
+                <td>Supernatural</td>
+                <td>Got</td>
+            </tr>
+
+            <tr>
+                <th scope="rowgroup" rowspan="3">Rapazes</th>
+                <td>Manuel Antonio</td>
+                <td>The Idol</td>
+                <td>TWD</td>
+                <td>Get Rven</td>
+            </tr>
+            <tr>
+                <td>José Pedro</td>
+                <td>Wu Thang</td>
+                <td>Blacklist</td>
+                <td>Blind Spot</td>
+            </tr>
+            <tr>
+                <td>Luis Vidal</td>
+                <td>Gotham</td>
+                <td>Quantico</td>
+                <td>D. Survivor</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
