@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption{
+            font-size: 1.1em;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        col.nome{
+            background-color:yellowgreen ;
+        }
+        col.grupo{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="grupo" span="2">
+            <col class="profi">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Julce Lucas</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>João Ndulo</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Serrelheiro</td>
+        </tr>
+        <tr>
+            <td>Manuel Antonio</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Luzia Neto</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Eng. Telec</td>
+        </tr>
+        <tr>
+            <td>Nilton Joveta</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Luis Vidal</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Electricista</td>
+        </tr>
+    </table>
+</body>
+</html>
