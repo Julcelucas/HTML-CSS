@@ -7,16 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iusua"> Usuário:</label>
-            <input type="text" name="usua" id="iusua">
+            <input type="text" name="usua" id="iusua" required placeholder="Nome do Perfil">
         </p>
         <p>
             <label for="isenh"> Senha:</label>
-            <input type="text" name="senh" id="isenh">
+           <input type="password" name="senh" id="isenh" required minlength="4" maxlength="20" placeholder="Palavra Passe">
         </p>
-
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
     </form>
 </body>
 </html>
