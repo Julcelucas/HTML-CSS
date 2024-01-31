@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Outro Formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label> <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Jogadores Favoritos</legend>
+            
+            <input type="checkbox" name="Messi" id="iMessi"><label for="iMessi">Messi</label> <br>
+            
+            <input type="checkbox" name="Ronaldo" id="iRonaldo"><label for="iRonaldo">Ronaldo</label> <br>
+            
+            <input type="checkbox" name="Rashford" id="iRashford"><label for="iRashford">Rashford </label><br>
+            
+            <input type="checkbox" name="Neymar" id="iNeymar"><label for="iNeymar">Neymar</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
+    </form>
+</body>
+</html>
