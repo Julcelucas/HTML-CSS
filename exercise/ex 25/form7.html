@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ipais">País</label>
+            <select name="pais" id="ipais">
+                <option value="sel" selected> Faça a sua escolha</option>
+                <optgroup  label="Lingua Portuguesa">
+                    <option value="Ang">Angola</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Pt">Portugal</option>
+                </optgroup>
+
+                <optgroup label="Lingua Inglesa">
+                    <option value="Ing">Inglaterra</option>
+                    <option value="Nig">Nigeria</option>
+                    <option value="Usa">Estados Unidos</option>
+                </optgroup>
+
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listp">
+            
+            <datalist id="listp">
+                <option >Professor</option>
+                <option >Jogador</option>
+                <option >Enfermeiro</option>
+            </datalist>
+        </p>
+
+        <P>
+            <label for="imens">Mensagem</label><br>
+            <textarea name="mens" id="imens" cols="30" rows="10"></textarea>
+        </P>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
+    </form>
+</body>
+</html>
