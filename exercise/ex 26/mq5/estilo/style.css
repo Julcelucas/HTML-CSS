@@ -33,7 +33,7 @@ header p:hover{
 }
 
 menu a {
-    display: block;
+    display: none;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(119, 114, 114);
