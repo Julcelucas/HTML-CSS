@@ -18,10 +18,18 @@ header h1{
 }
 
 menu{
-    background-color: darkgray;
+    background-color: rgba(83, 83, 83, 0.664);
     list-style-type: none;
 }
 menu li{
+    background-color: rgba(0, 0, 0, 0.096);
+    color: white;
     display: inline-block;
     padding: 12px;
+}
+
+article{
+    display: block;
+    margin: auto;
+    width: 500px;
 }
